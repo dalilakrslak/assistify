@@ -68,21 +68,47 @@ Assistify is a web application designed to help managers efficiently manage thei
 
 1. **Login/Register**:
    - Managers can register and log in to access the dashboard.
+   ![Registration](documentation/registration.png)
+   ![Login](documentation/login.png)
 
-2. **Dashboard**:
-   - View an overview of tasks, employee performance, and recent communications.
+2. **Profile Management**:
+   - Managers can edit their profile information, including name, surname, and other personal details.
+   ![Edit](documentation/editProfile.png)
 
-3. **Task Management**:
-   - Create, assign, and manage tasks for employees.
+3. **Dashboard**:
+   - View an overview of employees, add new employee
+   ![Dashboard](documentation/dashboard.png)
+   ![Add Employee](documentation/addEmployee.png)
 
-4. **Customization**:
+4. **Employee Management**:
+   - Managers can view detailed information about employees.
+        ![Employee](documentation/employee.png)
+   - Managers can edit employee information.
+        ![Edit employee](documentation/editEmployee.png)
+
+5. **Task Management**:
+   - Managers can view detailed information about tasks.
+        ![Tasks](documentation/tasks.png)
+   - Managers can add new task,
+        ![Add task](documentation/addTask.png)
+   - Managers can view/add tasks using calendar.
+        ![Calendar](documentation/calendar.png)
+     
+6. **Customization**:
    - Adjust the mobile application settings to suit employee needs.
+     ![Mobile application](documentation/mobile.png)
 
-5. **Instructions**:
+7. **Instructions**:
+   - View an overview of instructions.
+     ![Instructions](documentation/instructions.png)
    - Upload instructional materials for tasks.
+     ![Add instruction](documentation/addInstruction.png)
 
-6. **Communication**:
+8. **Communication**:
    - Send and receive messages with employees.
+     ![Chat](documentation/chat.png)
+     ![Chat](documentation/openChat.png)
 
-7. **Performance Tracking**:
-   - Monitor and analyze employee performance through detailed reports.
+9. **Performance Tracking**:
+   - Monitor and analyze employee performance through statistics.
+     ![Statistics](documentation/statistics.png)
