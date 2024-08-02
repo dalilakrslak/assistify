@@ -1,0 +1,156 @@
+.RegistrationForm {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 650px; 
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.RegistrationForm h2 {
+  margin-bottom: 2rem;
+  font-size: 25px;
+  color: #07255d;
+}
+
+.RegistrationForm label {
+  margin-bottom: 5px;
+}
+
+.registration-group {
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.gener {
+  margin-left: 55px;
+}
+
+.registration-gender {
+  margin-top: 20px;
+}
+
+.registration-gender label {
+  margin-right: 20px; 
+}
+
+
+.registration-group input {
+  padding: 0.4rem 2rem;
+  border: none;
+  border-bottom: 1px solid #07255d;
+  outline: none;
+  background-color: transparent;
+  transition: border-bottom 0.3s;
+  height: 30px;
+  width: 60%;
+  scroll-margin-right: 10px;
+  margin-right: 50px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: #07255d;
+}
+
+input:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.RegistrationForm button[type="submit"]  {
+  margin-top: 2rem;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #07255d;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 263px;
+}
+
+.RegistrationForm button[type="submit"]:hover {
+  background-color: #004080; 
+}
+
+.registrated-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.account-created {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 25px 60px 40px 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-created h2 {
+  margin-bottom: 20px;
+  text-align: left; 
+  color: #07255d;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+  text-align: left; 
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
+
+.note {
+  font-style: italic;
+  margin-top: 45px;
+  text-align: left; 
+}
+
+.note strong {
+  color: #07255d;
+}
+
+.note span {
+  display: block;
+  margin-top: 5px; 
+}
+
+.login-button {
+  margin-top: 2rem;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #07255d;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #004080; 
+}
+
+.registration-row {
+  display: flex;
+}

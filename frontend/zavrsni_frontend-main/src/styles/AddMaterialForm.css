@@ -1,0 +1,58 @@
+.add-material-form {
+  width: 400px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 25px 40px;
+}
+
+.add-material-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-material-form div {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.add-material-form label {
+  width: 165px;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.add-material-form input[type="text"],
+.add-material-form input[type="file"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-material-form input[type="file"] {
+  margin-top: 10px;
+}
+
+.add-material-form progress {
+  width: calc(100% - 185px);
+  margin-left: 185px;
+  height: 30px;
+}
+
+.add-material-form button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #07255d;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.add-material-form button[type="submit"]:hover {
+  background-color: #004080;
+}

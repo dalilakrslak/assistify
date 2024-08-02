@@ -1,0 +1,89 @@
+.postavke {
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 250px;
+}
+
+.forma {
+    width: 500px;
+}
+
+.opis-emp {
+    margin: 10px 0;
+}
+
+.postavke label {
+    width: 133px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.details-emp {
+    margin-top: 35px;
+    width: 1000px;
+}
+  
+.details-emp p {
+    margin-bottom: 25px;
+}
+
+.employee-button {
+    padding: 8px 20px;
+    margin-top: 10px;
+    width: 30%;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color: #07255d;
+    color: white;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}  
+  
+.employee-button:hover {
+    background-color: #004080;
+}
+
+.settings-group input[type="text"],
+.settings-group input[type="password"],
+.settings-group input[type="email"],
+.settings-group input[type="date"],
+.settings-group select,
+.settings-group textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.buttons-container .saveUpdate {
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    width: 70%;
+    border-radius: 20px;
+    background-color: #07255d;
+    color: white;
+    transition: background-color 0.3s;
+    margin-bottom: 100px;
+    margin-bottom: 0px;
+}
+  
+.buttons-container .saveUpdate:hover {
+    background-color: #004080;
+}
+  
+.goBack {
+    width: 0px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+}

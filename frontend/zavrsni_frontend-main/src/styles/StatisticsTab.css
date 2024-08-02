@@ -1,0 +1,60 @@
+.statistics-average-container {
+    margin: auto; 
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 26%;
+    color: #07255d;
+}
+  
+.statistics-average-title {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+  
+.statistics-average-value {
+    font-size: 17px;
+}
+  
+.statistics-rectangles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .rectangle {
+    flex: 1;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .easy {
+    color: #ffc300; 
+  }
+  
+  .medium {
+    color: #218838; 
+  }
+  
+  .hard {
+    color: #c70000; 
+  }
+  
+  .rectangle-value {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .rectangle-label {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  

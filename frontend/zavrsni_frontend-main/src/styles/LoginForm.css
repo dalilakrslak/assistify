@@ -1,0 +1,85 @@
+.LoginForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.LoginForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.LoginForm h2 {
+  margin-bottom: 2rem;
+  font-size: 25px;
+  color: #07255d
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  padding: 0.4rem 2rem;
+  border: none;
+  border-bottom: 1px solid #07255d;
+  outline: none;
+  background-color: transparent;
+  transition: border-bottom 0.3s;
+  height: 30px;
+  width: 190px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: #07255d;
+}
+
+input:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.loginform-button {
+  margin-top: 2rem;
+  width: 100%;
+  height: 2rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #07255d;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.loginform-button:hover {
+  background-color: #004080; 
+}
+
+.LoginForm a {
+  color: #07255d;
+  text-decoration: none;
+}
+
+.LoginForm a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
